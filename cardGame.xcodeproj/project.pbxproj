@@ -60,14 +60,30 @@
 			children = (
 				B74049B81DBFE3CF005A0288 /* AppDelegate.swift */,
 				B74049BA1DBFE3CF005A0288 /* ViewController.swift */,
-				B74049BC1DBFE3CF005A0288 /* Main.storyboard */,
-				B74049BF1DBFE3CF005A0288 /* Assets.xcassets */,
-				B74049C11DBFE3CF005A0288 /* LaunchScreen.storyboard */,
+				B74049CF1DBFE687005A0288 /* View */,
 				B74049C41DBFE3CF005A0288 /* Info.plist */,
+				B74049CE1DBFE664005A0288 /* Model */,
+			);
+			path = cardGame;
+			sourceTree = "<group>";
+		};
+		B74049CE1DBFE664005A0288 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				B74049CA1DBFE5CE005A0288 /* Card.swift */,
 				B74049CC1DBFE5F1005A0288 /* PlayingCard.swift */,
 			);
-			path = cardGame;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B74049CF1DBFE687005A0288 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B74049BC1DBFE3CF005A0288 /* Main.storyboard */,
+				B74049BF1DBFE3CF005A0288 /* Assets.xcassets */,
+				B74049C11DBFE3CF005A0288 /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
