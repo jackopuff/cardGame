@@ -10,16 +10,45 @@ import UIKit
 
 class PlayingCard : Card
 {
-    private var rank : Int
     private var suit : String
+    {
+        get
+        {
+            return self.suit
+        }
+        set(suit)
+        {
+            self.suit = suit
+        }
+    }
     private var color: UIColor
-    
+    {
+        get
+        {
+            return self.color
+        }
+        set(color)
+        {
+            self.color = color
+        }
+    }
+    private var rank : Int
+    {
+        get
+        {
+            return self.rank
+        }
+        set(rank)
+        {
+            self.rank = rank
+        }
+    }
     override init()
     {
+        super.init()
         rank = 0
         suit = ""
         color = UIColor()
-        super.init()
         
     }
     func getRank() ->Int
@@ -34,9 +63,19 @@ class PlayingCard : Card
     {
         return color
     }
-    ovverride func toString() ->String
+    override func toString() ->String
     {
-        let description = "The card rank is: \(rank) and its suitis \(suit). It has a color of \(color)"
+        var backStatus : String
+        if super.isFacing()
+        {
+            backStatus = "is face up"
+        }
+        else
+        {
+            backStatus = "is face down"
+        }
+        
+        let description = "The card rank is: \(rank) and its suitis \(suit). It has a color of \(color) the card is facing \(backStatus)"
         
         return description
     }
