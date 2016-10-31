@@ -21,7 +21,7 @@ class PlayingCard : Card
             self.suit = suit
         }
     }
-    internal var color: UIColor
+    private var color: UIColor
     {
         get
         {
