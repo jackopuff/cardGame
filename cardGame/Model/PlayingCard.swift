@@ -21,7 +21,7 @@ class PlayingCard : Card
             self.suit = suit
         }
     }
-    private var color: UIColor
+    internal var color: UIColor
     {
         get
         {
@@ -47,9 +47,16 @@ class PlayingCard : Card
     {
         super.init()
         rank = 0
-        suit = ""
-        color = UIColor()
+        suit = String()
+        color = UIColor.redColor()
         
+    }
+    init(withRank:Int, ofSuit:String)
+    {
+        super.init();
+        color=UIColor.redColor()
+        rank = withRank
+        suit = ofSuit
     }
     func getRank() ->Int
     {
