@@ -15,6 +15,7 @@
 		B74049CD1DBFE5F1005A0288 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74049CC1DBFE5F1005A0288 /* PlayingCard.swift */; };
 		B741A4181DC27DBF005DFCAE /* CardGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B741A4171DC27DBF005DFCAE /* CardGameController.swift */; };
 		B7E88C571DC7C45800CB8B3B /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E88C561DC7C45800CB8B3B /* Deck.swift */; };
+		B7E88C591DC7C4D700CB8B3B /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E88C581DC7C4D700CB8B3B /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B74049CC1DBFE5F1005A0288 /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayingCard.swift; path = Model/PlayingCard.swift; sourceTree = "<group>"; };
 		B741A4171DC27DBF005DFCAE /* CardGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardGameController.swift; path = Controller/CardGameController.swift; sourceTree = "<group>"; };
 		B7E88C561DC7C45800CB8B3B /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Model/Deck.swift; sourceTree = "<group>"; };
+		B7E88C581DC7C4D700CB8B3B /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				B74049CA1DBFE5CE005A0288 /* Card.swift */,
 				B74049CC1DBFE5F1005A0288 /* PlayingCard.swift */,
 				B7E88C561DC7C45800CB8B3B /* Deck.swift */,
+				B7E88C581DC7C4D700CB8B3B /* PlayingCardDeck.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				B74049CB1DBFE5CE005A0288 /* Card.swift in Sources */,
 				B74049CD1DBFE5F1005A0288 /* PlayingCard.swift in Sources */,
 				B7E88C571DC7C45800CB8B3B /* Deck.swift in Sources */,
+				B7E88C591DC7C4D700CB8B3B /* PlayingCardDeck.swift in Sources */,
 				B74049B91DBFE3CF005A0288 /* AppDelegate.swift in Sources */,
 				B741A4181DC27DBF005DFCAE /* CardGameController.swift in Sources */,
 			);
