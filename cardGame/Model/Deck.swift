@@ -10,5 +10,5 @@ import Foundation
 
 class Deck
 {
-    
+    internal lazy var cards = [Card]()
 }

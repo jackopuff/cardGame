@@ -16,6 +16,7 @@
 		B741A4181DC27DBF005DFCAE /* CardGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B741A4171DC27DBF005DFCAE /* CardGameController.swift */; };
 		B7E88C571DC7C45800CB8B3B /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E88C561DC7C45800CB8B3B /* Deck.swift */; };
 		B7E88C591DC7C4D700CB8B3B /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E88C581DC7C4D700CB8B3B /* PlayingCardDeck.swift */; };
+		B7E88C5B1DC7D38700CB8B3B /* cardback in Resources */ = {isa = PBXBuildFile; fileRef = B7E88C5A1DC7D38700CB8B3B /* cardback */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B741A4171DC27DBF005DFCAE /* CardGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardGameController.swift; path = Controller/CardGameController.swift; sourceTree = "<group>"; };
 		B7E88C561DC7C45800CB8B3B /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Model/Deck.swift; sourceTree = "<group>"; };
 		B7E88C581DC7C4D700CB8B3B /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		B7E88C5A1DC7D38700CB8B3B /* cardback */ = {isa = PBXFileReference; lastKnownFileType = file; name = cardback; path = ../../../../Downloads/cardback; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				B74049BC1DBFE3CF005A0288 /* Main.storyboard */,
 				B74049BF1DBFE3CF005A0288 /* Assets.xcassets */,
+				B7E88C5A1DC7D38700CB8B3B /* cardback */,
 				B74049C11DBFE3CF005A0288 /* LaunchScreen.storyboard */,
 			);
 			name = View;
@@ -161,6 +164,7 @@
 				B74049C31DBFE3CF005A0288 /* LaunchScreen.storyboard in Resources */,
 				B74049C01DBFE3CF005A0288 /* Assets.xcassets in Resources */,
 				B74049BE1DBFE3CF005A0288 /* Main.storyboard in Resources */,
+				B7E88C5B1DC7D38700CB8B3B /* cardback in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
