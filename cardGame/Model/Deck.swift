@@ -11,4 +11,14 @@ import Foundation
 class Deck
 {
     internal lazy var cards = [Card]()
+    
+    func shuffleDeck() -> Void
+    {
+        
+    }
+    
+    func cutDeck() -> Void
+    {
+        
+    }
 }
