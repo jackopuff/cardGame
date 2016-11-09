@@ -36,6 +36,10 @@ class PlayingCard : Card
     {
         return suit
     }
+    func getCardData() -> String
+    {
+        return "\(PlayingCard.validRanks()[rank]) \(suit)"
+    }
     func getColor() -> UIColor
     {
         return color
