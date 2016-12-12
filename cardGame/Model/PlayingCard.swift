@@ -17,13 +17,13 @@ class PlayingCard : Card
     {
         rank = 0
         suit = String()
-        color = UIColor.redColor()
+        color = UIColor.red
         super.init()
         
     }
     init(withRank:Int, ofSuit:String)
     {
-        color=UIColor.redColor()
+        color=UIColor.red
         rank = withRank
         suit = ofSuit
         super.init();
